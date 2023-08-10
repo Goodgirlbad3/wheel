@@ -3,10 +3,11 @@ import React, { useMemo } from "react";
 import { Form, Formik } from "formik";
 import { Button } from "neetoui";
 import { Input } from "neetoui/formik";
-import { Container, Header } from "neetoui/layouts";
 
 import profilesApi from "apis/profiles";
 import { useUserState, useUserDispatch } from "contexts/user";
+import Container from "neetomolecules/Container";
+import Header from "neetomolecules/Header";
 
 import ConfirmPasswordFormModal from "./ConfirmPasswordFormModal";
 import { PROFILE_FORM_VALIDATION_SCHEMA } from "./constants";

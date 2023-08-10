@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 
-import { MenuBar } from "neetoui/layouts";
 import queryString from "query-string";
+
+import MenuBar from "neetomolecules/MenuBar";
 
 import { SETTINGS_NAVLINKS } from "./navLinks";
 import { getActiveNavLink } from "./utils";

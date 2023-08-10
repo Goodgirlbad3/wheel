@@ -3,9 +3,10 @@ import React from "react";
 import { Form, Formik } from "formik";
 import { Button } from "neetoui";
 import { Input } from "neetoui/formik";
-import { Container, Header } from "neetoui/layouts";
 
 import profilesApi from "apis/profiles";
+import Container from "neetomolecules/Container";
+import Header from "neetomolecules/Header";
 
 import {
   CHANGE_PASSWORD_FORM_INITIAL_VALUES,
